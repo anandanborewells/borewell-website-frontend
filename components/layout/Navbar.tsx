@@ -118,7 +118,7 @@ export function Navbar() {
             <Image
               width={100}
               height={100}
-              src="/assets/images/logo.png"
+              src="/assets/images/logo.webp"
               alt="Anandan Borewells"
               className="w-14 h-14 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain"
             />
