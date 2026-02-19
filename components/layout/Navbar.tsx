@@ -124,7 +124,7 @@ export function Navbar() {
             />
             <div className="flex flex-col leading-tight">
               <span className="text-white font-bold text-base md:text-lg tracking-wide uppercase">
-                Anandhan
+                Anandan
               </span>
               <span className="text-white/90 text-[10px] md:text-xs font-medium tracking-[0.2em] uppercase">
                 Borewells

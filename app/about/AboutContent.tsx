@@ -106,7 +106,7 @@ export function AboutContent() {
               Why We're Different
             </h2>
             <p className="text-slate-600 text-lg">
-              What sets Anandhan Borewell apart from other drilling services
+              What sets Anandan Borewell apart from other drilling services
             </p>
           </div>
 
@@ -201,7 +201,7 @@ export function AboutContent() {
                 Our Values
               </h2>
               <p className="text-slate-600 text-base mb-12">
-                What sets Anandhan Borewell apart from other drilling services
+                What sets Anandan Borewell apart from other drilling services
               </p>
 
               <div className="space-y-6">

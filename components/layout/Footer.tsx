@@ -133,7 +133,10 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-2 text-center text-sm text-slate-500">
-          <div>&copy;2026Anandhan Borewell Drilling. All right reserved.</div>
+          <div>
+            &copy; {new Date().getFullYear()} Anandan Borewell Drilling. All
+            rights reserved.
+          </div>
           <span>
             Developed By{" "}
             <Link
