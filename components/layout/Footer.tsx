@@ -41,13 +41,13 @@ export function Footer() {
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
               Professional borewell drilling services in chennai with over 25
-              year of expriance. Trusted by homeowner, farmers, and business.
+              year of experiences. Trusted by homeowner, farmers, and business.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white">Quick Links</h4>
+            <h3 className="text-lg font-bold mb-6 text-white">Quick Links</h3>
             <ul className="space-y-3 text-sm text-slate-400">
               <li>
                 <Link
@@ -94,7 +94,7 @@ export function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white">Services</h4>
+            <h3 className="text-lg font-bold mb-6 text-white">Services</h3>
             <ul className="space-y-3 text-sm text-slate-400">
               <li>
                 <Link
@@ -106,10 +106,10 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/services/borewell-recovery"
+                  href="/services/borewell-cleaning"
                   className="hover:text-[#FFC107] transition-colors"
                 >
-                  Borewell Recovery
+                  Borewell Cleaning
                 </Link>
               </li>
               <li>
@@ -122,10 +122,10 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/services/borewell-cleaning"
+                  href="/services/borewell-recovery"
                   className="hover:text-[#FFC107] transition-colors"
                 >
-                  Borewell Cleaning
+                  Borewell Recovery
                 </Link>
               </li>
             </ul>

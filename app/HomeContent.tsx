@@ -99,13 +99,20 @@ function Hero() {
 
       <div className="container mx-auto px-4 relative z-20 mt-13 text-white flex flex-col items-center justify-center min-h-screen">
         <div className="max-w-3xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-[#005f99]/60 px-4 py-1.5 rounded-full mb-6 border border-white/20 shadow-md">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#FFC107] inline-block" />
-            <span className="text-white/90 text-sm font-medium tracking-wide drop-shadow-[0_2px_5px_rgba(0,0,0,0.8)]">
-              Chennai Trusted Borewell Service
-            </span>
+          <div className="flex flex-col justify-center items-center md:mt-5 ">
+            <div className="flex w-60 items-center gap-2 bg-[#005f99]/60 px-4 py-1.5 rounded-full mb-4 border border-white/20 shadow-md">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#FFC107] inline-block" />
+              <span className="text-white/90 text-center text-sm font-medium tracking-wide drop-shadow-[0_2px_5px_rgba(0,0,0,0.8)] flex flex-col">
+                Trusted Borewell Service
+              </span>
+            </div>
+            <div className="flex w-90 items-center gap-2 bg-[#005f99]/60 px-4 py-1.5 rounded-full mb-4 border border-white/20 shadow-md">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#FFC107] inline-block" />
+              <span className="text-white/90 text-sm font-medium tracking-wide drop-shadow-[0_2px_5px_rgba(0,0,0,0.8)] flex flex-col">
+                Chennai,Chengalpattu, kancheepuram
+              </span>
+            </div>
           </div>
-
           <h1
             className="text-[28px] md:text-4xl lg:text-5xl font-extrabold mb-3 leading-tight 
 text-shine drop-shadow-[0_4px_10px_rgba(0,0,0,0.7)]"

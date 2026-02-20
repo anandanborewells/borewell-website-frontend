@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     title: {
-        default: "Anandan Borewells | Best Borewell Drilling Services in Chennai",
+        default: "Anandan Borewells | Best Borewell Drilling and Cleaning Services in Chennai",
         template: "%s | Anandan Borewells",
     },
     description: "Anandan Borewells offers expert 4-12 inch borewell drilling, compressor work, motor setup, and borewell cleaning services in Chennai. 15+ years of experience. Call now!",
@@ -30,11 +30,11 @@ export const metadata: Metadata = {
         locale: "en_IN",
         url: "https://anandanborewells.com",
         siteName: "Anandan Borewells",
-        title: "Anandan Borewells | Professional Borewell Drilling in Chennai",
-        description: "Leading borewell drilling and maintenance service provider in Chennai with over 15 years of excellence.",
+        title: "Anandan Borewells | Professional Borewell Drilling and Cleaning in Chennai",
+        description: "Leading borewell drilling and Cleaning service provider in Chennai with over 25 years of excellence.",
         images: [
             {
-                url: "/assets/images/hero/hero-3.png",
+                url: "/assets/images/logo.webp",
                 width: 1200,
                 height: 630,
                 alt: "Anandan Borewells Drilling Service",
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Anandan Borewells | Professional Borewell Drilling in Chennai",
-        description: "Expert borewell drilling and maintenance services in Chennai. 15+ years experience.",
-        images: ["/assets/images/hero/hero-3.png"],
+        title: "Anandan Borewells | Professional Borewell Drilling and Cleaning in Chennai",
+        description: "Expert borewell drilling and Cleaning services in Chennai. 25+ years experience.",
+        images: ["/assets/images/logo.webp"],
     },
     robots: {
         index: true,
@@ -75,7 +75,7 @@ export default function RootLayout({
                             "@context": "https://schema.org",
                             "@type": "LocalBusiness",
                             "name": "Anandan Borewells",
-                            "image": "https://anandanborewells.com/assets/images/hero/hero-3.png",
+                            "image": "https://anandanborewells.com/assets/images/hero/hero-3.webp",
                             "@id": "https://anandanborewells.com",
                             "url": "https://anandanborewells.com",
                             "telephone": "+91 98765 43210",
