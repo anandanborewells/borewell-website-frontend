@@ -106,10 +106,10 @@ function Hero() {
                 Trusted Borewell Service
               </span>
             </div>
-            <div className="flex w-90 items-center gap-2 bg-[#005f99]/60 px-4 py-1.5 rounded-full mb-4 border border-white/20 shadow-md">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#FFC107] inline-block" />
-              <span className="text-white/90 text-sm font-medium tracking-wide drop-shadow-[0_2px_5px_rgba(0,0,0,0.8)] flex flex-col">
-                Chennai,Chengalpattu, kancheepuram
+            <div className="flex w-90 items-center justify-center gap-2 bg-[#005f99]/60 px-4 py-1.5 rounded-full mb-4 border border-white/20 shadow-md">
+                <MapPin size="15"/>
+              <span className="text-white/90 text-[13px] font-medium tracking-wide drop-shadow-[0_2px_5px_rgba(0,0,0,0.8)] flex flex-col">
+                Chennai, Chengalpattu, kancheepuram
               </span>
             </div>
           </div>
@@ -129,8 +129,8 @@ text-shine drop-shadow-[0_4px_10px_rgba(0,0,0,0.7)]"
             drilling, strong water yield, and dependable results every time.
           </p>
 
-          <div className="flex gap-4 mb-16 justify-center flex-wrap">
-            <a href="tel:9840105134">
+          <div className="flex gap-4 mb-10 justify-center flex-wrap">
+            <a href="tel:+918610688964">
               <Button
                 size="lg"
                 className="rounded-xl bg-[#FFC107] hover:bg-[#FFB300] text-slate-900 border-none font-bold px-10 py-4 text-lg shadow-xl btn-custom-hover"

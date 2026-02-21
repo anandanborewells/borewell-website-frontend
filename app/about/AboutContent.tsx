@@ -313,7 +313,7 @@ export function AboutContent() {
               help with all your borewell needs.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
-              <a href="tel:9840105134">
+              <a href="tel:+918610688964">
                 <Button
                   size="lg"
                   className="rounded-lg bg-[#fbc02d] hover:bg-[#FFB300] text-slate-900 border-none font-bold px-10 py-4 text-lg shadow-lg btn-custom-hover"

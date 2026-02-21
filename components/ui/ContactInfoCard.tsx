@@ -4,7 +4,7 @@ interface ContactInfoCardProps {
     icon: LucideIcon;
     title: string;
     subtitle: string;
-    details: string;
+    details?: string;
     href?: string;
 }
 

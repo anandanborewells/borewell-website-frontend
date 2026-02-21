@@ -1,6 +1,6 @@
 "use client";
 
-import { Phone } from "lucide-react";
+import { LocateIcon, Map, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 interface SubHeroProps {
@@ -16,7 +16,7 @@ export function SubHero({
   subheading,
   backgroundImage = "/assets/images/hero/hero-3.webp",
   badgeText = "Trusted Borewell Service",
-  locationText = "Chennai,Chengalpattu, kancheepuram",
+  locationText = "Chennai, Chengalpattu, kancheepuram",
 }: SubHeroProps) {
   return (
     <section
@@ -36,9 +36,9 @@ export function SubHero({
                 {badgeText}
               </span>
             </div>
-            <div className="flex items-center w-90 gap-2 bg-[#005f99]/60 px-4 py-1.5 rounded-full mb-4 border border-white/20 shadow-md">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#FFC107] inline-block" />
-              <span className="text-white/90 text-sm font-medium tracking-wide">
+            <div className="flex items-cente justify-center w-90 gap-2 bg-[#005f99]/60 px- py-1.5 rounded-full mb-4 border border-white/20 shadow-md">
+              <MapPin size="15"/>
+              <span className="text-white/90 text-[13px] font-medium tracking-wide">
                 {locationText}
               </span>
             </div>
@@ -57,7 +57,7 @@ export function SubHero({
 
           {/* CTAs */}
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:9840105134">
+            <a href="tel:+918610688964">
               <Button
                 size="lg"
                 className="rounded-xl bg-[#FFC107] hover:bg-[#FFB300] text-slate-900 border-none font-bold px-10 py-4 text-lg shadow-xl btn-custom-hover"

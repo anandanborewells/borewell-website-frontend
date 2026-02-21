@@ -24,7 +24,7 @@ export function InfoBanner({
                     {subtitle}
                 </p>
                 <div className="flex gap-4 justify-center flex-wrap">
-                    <a href="tel:9840105134">
+                    <a href="tel:+918610688964">
                         <Button size="lg" className="rounded-xl bg-[#FFC107] hover:bg-[#FFB300] text-slate-900 border-none font-bold px-10 py-4 text-lg shadow-xl btn-custom-hover">
                             <Phone className="w-5 h-5 mr-2" />
                             Call Now
