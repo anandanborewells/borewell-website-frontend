@@ -201,7 +201,7 @@ export function Navbar() {
                 </div>
               ))}
             </div>
-            <a href="tel:9840105134">
+            <a href="tel:+918610688964">
               <Button
                 size="sm"
                 className="gap-2 bg-[#0D59A5] text-white border-2 border-transparent hover:border-white hover:bg-gradient-to-r hover:from-[#0D59A5] hover:to-[#002b45] rounded-md px-6 font-bold transition-all duration-300"
