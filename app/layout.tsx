@@ -100,7 +100,7 @@ export default function RootLayout({
                 "https://anandanborewells.in/assets/images/hero/hero-3.webp",
               "@id": "https://anandanborewells.in",
               url: "https://anandanborewells.in",
-              telephone: "+91 98765 43210",
+              telephone: "+91 86106 88964",
               address: {
                 "@type": "PostalAddress",
                 streetAddress:
