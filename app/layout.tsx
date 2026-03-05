@@ -67,6 +67,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className="scroll-smooth">
+            <head>
+             <meta name="google-site-verification" content="CuTKf_SliCkov5D9Uj1-FLgxXpLfMHjV_sZgGhGE4UY" />
+            </head>
             <body className={`${inter.variable} font-sans text-slate-800 bg-white min-h-screen`}>
                 <script
                     type="application/ld+json"
