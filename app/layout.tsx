@@ -11,6 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://anandanborewells.in"),
+
   title: {
     default:
       "Anandan Borewells | Best Borewell Drilling and Cleaning Services in Chennai",
